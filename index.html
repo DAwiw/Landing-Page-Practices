@@ -7,7 +7,11 @@
     <style>
         /* 1. ตั้งค่าพื้นฐาน */
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        body { 
+		background-color: #ffe6e6;
+		color: #333; 
+		line-height: 1.6; 
+	     }
 
         /* 2. ส่วนหัว (Header) */
         header { background: #2c3e50; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
@@ -16,7 +20,10 @@
 
         /* 3. ส่วนเนื้อหาหลัก (Hero Section) */
         .hero { max-width: 800px; margin: 80px auto; text-align: center; padding: 20px; }
-        .hero h1 { font-size: 48px; color: #2c3e50; margin-bottom: 20px; }
+        .hero h1 { 
+		font-size: 48px;
+		color: #9b59b6; /* เปลี่ยนจากสีน้ำเงินเข้มเดิม เป็นสีม่วง */ 
+		margin-bottom: 20px; }
         .hero p { font-size: 18px; color: #7f8c8d; margin-bottom: 30px; }
         
         /* 4. ปุ่ม Call to Action */
@@ -33,7 +40,15 @@
 
     <section class="hero">
         <h1>ยินดีต้อนรับสู่ร้านค้าออนไลน์ของฉัน</h1>
-        <p>นี่คือหน้า Landing Page ที่สร้างขึ้นเองจากศูนย์ด้วย HTML และ CSS เพื่อฝึกฝนการใช้งาน GitHub Pages เว็บนี้โหลดเร็ว ปลอดภัย และแสดงผลได้ดีบนมือถือ</p>
+        <p>นี่คือหน้า Landing Page ที่สร้างขึ้นเองจากศูนย์ด้วย 
+		<span style="color: red; 
+		             background-color: yellow; 
+		             paddie: 2px 6xp;
+			     border-radius: 3px;"
+		>HTML และ CSS
+		</span> 
+	        เพื่อฝึกฝนการใช้งาน GitHub Pages เว็บนี้โหลดเร็ว ปลอดภัย และแสดงผลได้ดีบนมือถือ
+        </p>
         <a href="https://github.com" target="_blank" class="btn">เริ่มต้นใช้งานฟรี</a>
     </section>
 
